@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeJS File Uploader</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <article class="file-uploader">
+            <h1>Upload your file</h1>
+            <div>
+                <img src="./icons/upload_icon.png" class="image-preview" alt="uploaded image preview">
+            </div>
+            <form>
+                <input type="file" name="file-to-upload" hidden>
+                <input type="text" name="filename" hidden>
+                <input type="text" name="imagename" placeholder="image name">
+                <input type="text" name="username" placeholder="your name">
+                <button class="btn">Upload</button>
+            </form>
+        </article>
+    </div>
+
+    <script src="./js/helpers.js"></script>
+    <script src="./js/uploadFile.js"></script>
+    <script src="./js/submitForm.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

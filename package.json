@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_uploader",
+  "version": "1.0.0",
+  "description": "File uploader on pure NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "file",
+    "nodejs"
+  ],
+  "author": "mr.voronov",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.25.3"
+  }
+}

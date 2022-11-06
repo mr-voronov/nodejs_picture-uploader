@@ -1,0 +1,56 @@
+:root {
+    --ff-primary: Heebo, sans-serif;
+    --ff-secondary: Bungee, cursive;
+    --c-blue-intense: #0007E3;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--ff-primary);
+}
+
+form,
+button {
+    font-family: var(--ff-secondary);
+}
+
+.file-uploader,
+.file-uploader form {
+    max-width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.file-uploader {
+    margin: 2rem auto;
+    border: 1px solid var(--c-blue-intense);
+    border-radius: 25px;
+}
+
+.file-uploader h1 {
+    margin-top: 1rem;
+}
+
+.file-uploader form {
+    margin-bottom: 1rem;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.file-uploader .image-preview {
+    max-width: 256px;
+}
+
+.btn--ready {
+    border: 1px solid var(--c-blue-intense);
+    border-radius: 3px;
+}
